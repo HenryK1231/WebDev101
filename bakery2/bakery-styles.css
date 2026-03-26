@@ -94,11 +94,12 @@ nav ul li {
   letter-spacing: .2em;
 }
 #award {
+  <div id="award"><img src="images/award.png" alt="Farmers' Market Award"></div>
   position: fixed;
   top: 30px;
   left: 50px;
 }
-<div id="award"><img src="images/award.png" alt="Farmers' Market Award"></div>
+
   margin: 0;
   margin-top: 36px;
   margin-top: -12px;
