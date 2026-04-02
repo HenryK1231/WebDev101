@@ -71,9 +71,9 @@ a {
 
 /* header styles */
 header {
+  ...
   grid-area: banner;
-  height: 240px;
-  
+  ...
 }
 header p {
   font-style: italic;
