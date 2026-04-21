@@ -26,7 +26,9 @@
       text-decoration: none;
       color: white;
       font-weight: bold;
+      transform: scale(1.5) translate (50%, 0); 
     }
+
 
     .card {
       background-color: white;
@@ -38,6 +40,7 @@
       margin: 1em;
       text-align: center;
       display: inline-block;
+      
     }
 
     img {
@@ -46,23 +49,30 @@
     }
 
     /* ✨ Add your transition and transform effects below this line ✨ */
-
-
+#Bear_card:hover img {
+  transform: scale(0.5);
+}
+#Cat_card:hover img {
+  transform: translate(10%, 0) scale(3.7)
+}
+#Click_me:hover {
+  transform: translate(100px);
+}
   </style>
 </head>
 <body>
   <h1>Transitions & Transforms Practice</h1>
 
   <a href="#" class="button">Hover Me</a>
-  <a href="#" class="button">Click Me</a>
+  <a href="#" class="button" id = "Click_me">Click Me</a>
 
-  <div class="card">
+  <div class="card" id = "Cat_card">
     <img src="https://placecats.com/200/150" alt="Cat">
     <h3>Card Title</h3>
     <p>Try adding a hover effect!</p>
   </div>
 
-  <div class="card">
+  <div class="card" id = "Bear_card"; >
     <img src="https://placebear.com/200/150" alt="Bear">
     <h3>Another Card</h3>
     <p>Make me spin or scale up!</p>
