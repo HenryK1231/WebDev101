@@ -47,7 +47,7 @@
     color: #5BA4A4;
   }
   a:visited {
-    color: #FFF9E6; 
+    color: red; 
   }
   a:focus, a:hover {
     color: #C06C48;
