@@ -4,5 +4,5 @@ let $TEXT = $P.innerText;
 let $LIST = $TEXT.split(" "); 
 let $WORDS = $LIST.length;
 let $TIME = $WORDS / 250;
-$P.innerText += ...;
+$P.innerText += $TIME;
 </script>
